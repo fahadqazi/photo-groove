@@ -1,10 +1,9 @@
 module PhotoGroove exposing (main)
 
-import Html exposing (..)
-import Html.Attributes exposing (..)
+import Html exposing (div, h1, img, text)
+import Html.Attributes exposing (class, id, src)
 
 
-view : a -> Html msg
 view model =
     div [ class "content" ]
         [ h1 [] [ text "Photo Groove" ]
